@@ -3,13 +3,13 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // Les informations générales relatives à un assembly dépendent de 
-// l'ensemble d'attributs suivant. Changez les valeurs de ces attributs pour modifier les informations
-// associées à un assembly.
-[assembly: AssemblyTitle("WebContextSample")]
+// l'ensemble d'attributs suivant. Pour modifier les informations
+// associées à un assembly, changez les valeurs de ces attributs.
+[assembly: AssemblyTitle("WcfContextSample")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WebContextSample")]
+[assembly: AssemblyProduct("WcfContextSample")]
 [assembly: AssemblyCopyright("Copyright © PONTOREAU Sylvain 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,16 +20,17 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Le GUID suivant est pour l'ID de la typelib si ce projet est exposé à COM
-[assembly: Guid("5f4ba11e-e1a7-4222-b0e5-e3be2a2ff307")]
+[assembly: Guid("8a617c80-06ab-492a-8c4e-b63e7cd239a0")]
 
-// Les informations de version pour un assembly se composent des quatre valeurs suivantes :
+// Les informations de version pour un assembly se composent des quatre valeurs suivantes :
 //
 //      Version principale
 //      Version secondaire 
 //      Numéro de build
 //      Révision
 //
-// Vous pouvez spécifier toutes les valeurs ou indiquer les numéros de révision et de build par défaut 
-// en utilisant '*', comme indiqué ci-dessous :
+// Vous pouvez spécifier toutes les valeurs ou indiquer des numéros de révision et de build par défaut 
+// en utilisant '*', comme ci-dessous :
+// [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
